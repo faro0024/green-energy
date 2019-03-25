@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Cantora+One|Oswald');
+
+/*Header */
+
+ h1 #a{
+    color:#272f2b;
+}
+
+body{
+    position: relative;
+    max-width:60rem;
+    height: auto;
+    margin: 0 auto;
+}
+/*header button */
+
+.navbar{
+  font-family: 'Cantora One', sans-serif;
+}
+
+.navbar-light .navbar-brand{
+    font-size:2.5rem;
+    font-weight: bolder;
+    color: #0eaf2e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+     color: #0eaf2e;
+  }
+
+.collapse{
+justify-content: flex-end;    
+}
+
+.btn{
+    background-color:#0eaf2e;
+    color: black;    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top:3rem; 
+    text-align: center;
+
+}
+
+.btn:hover{
+    background-color:#FFA435;
+    color:white;
+    border-radius:5px;
+    transition:1s;
+     box-shadow:
+                1px 1px #EAEDF7,
+                2px 2px #EAEDF7,
+                3px 3px #EAEDF7;
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+}
+
+
+/*End Header*/
+
+
+/* article section */
+article{
+    width: 100%;
+}
+
+
+article h1{
+font-family: 'Cantora One', sans-serif;
+margin:2rem;   
+}
+
+article p {
+font-family: 'Oswald', sans-serif;
+}
+
+/* article section */
+
+/*Footer*/
+
+#myFooter {
+    background-color:#0eaf2e;
+    color: white;
+    padding-top: 20px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #0eaf2e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+
+
+#myFooter .footer-copyright p {
+    font-family: 'Cantora One', sans-serif;
+    margin: 10px;
+    color: #fff;
+}
+
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #fff;
+    padding: 30px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .youtube:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: black;
+    background-color:#EAEDF7;
+    border-radius:5px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#myFooter .btn:hover{
+    background-color:#FFA435;
+    color:white;
+    border-radius:5px;
+    transition:1s;
+     box-shadow:
+                1px 1px #EAEDF7,
+                2px 2px #EAEDF7,
+                3px 3px #EAEDF7;
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+}
+
+#active{
+    background-color:#70C7FE;
+}
+
+.img-flu {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin-bottom:3rem; 
+}
+
+
+
+@media screen and (max-width:30rem) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .social-networks a{
+        padding: 10px;
+    }
+    .collapse{
+    justify-content:flex-end;    
+    }
+    article h1{
+    font-size: 1.5rem;
+}
+
+
+
+
+/*End Footer*/
